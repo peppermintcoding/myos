@@ -8,4 +8,4 @@ Build the docker enviroment
 docker build buildenv -t myos-env
 
 Run docker container
-docker run --rm -it -v /root/env myos-env
+docker run --rm -it -v c:/dev/myos:/root/env myos-env
